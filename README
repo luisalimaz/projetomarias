@@ -1,0 +1,92 @@
+Projeto Final - Academia - Desenvolvimento em PHP
+Desenvolvedoras - Maria Eduarda, Maria Luísa
+Descrição
+
+Este é o nosso projeto final do curso, onde temos como objetivo desenvolver um sistema para uma academia utilizando PHP, MySQL, HTML, CSS, JavaScript, XAMPP para banco de dados. O sistema oferece funcionalidades essenciais, como operações de CRUD, autenticação de usuários, validação de dados e uma interface responsiva. Além disso, inclui um requisito especial.
+
+Tecnologias Utilizadas
+
+Linguagens:
+
+* MySQL
+* PHP
+* HTML
+* CSS
+* JavaScript
+* password_hash
+
+Banco de Dados:
+
+MySQL (via XAMPP, utilizando o phpMyAdmin para gerenciamento)
+
+1. CRUDs Funcionais
+
+Cada entidade no sistema permiti:
+
+Criar registros
+Listar registros
+Editar registros
+Excluir registros
+
+2. Autenticação de Usuários
+
+Login com senha
+Logout funcional
+
+3. Validação de Dados
+
+Validações tanto no frontend (JavaScript) quanto no backend (PHP)
+Campos obrigatórios
+Formatos válidos (e-mails e CPF.)
+
+4. Interface Responsava
+
+Layout adaptável a diferentes tamanhos de tela
+Uso do Bootstrap ou outro framework para garantir responsividade
+Requisitos Especiais
+
+Token recuperação de senha:
+
+Paginação e Filtro em Listagens:
+
+Implementação de paginação nas tabelas do sistema
+
+Inclusão de busca avançada para facilitar a filtragem de dados
+
+
+A estrutura de pastas para o projeto é a seguinte:
+
+/projetofinalmarias/ /CLASSES/ /CONFIG/ /CSS/ /IMG/ README.md
+
+Banco de Dados
+
+Utilizei o XAMPP para configurar o servidor Apache e MySQL.
+O banco de dados é gerenciado através do phpMyAdmin.
+Defini tabelas para as entidades do sistema, como usuarios, compras, categorias.
+Como Executar o Projeto
+
+Instalar o XAMPP:
+
+Baixe e instale o XAMPP (https://www.apachefriends.org/).
+Inicie o servidor Apache e MySQL.
+Criar o Banco de Dados:
+
+Acesse o phpMyAdmin (http://localhost/phpmyadmin) e crie o banco de dados necessário para o projeto.
+Configuração do Projeto:
+
+Coloque os arquivos do projeto na pasta htdocs do XAMPP.
+Certifique-se de configurar corretamente as credenciais de conexão ao banco de dados no arquivo PHP responsável pela conexão.
+Acessar o Sistema:
+
+Acesse o sistema pelo navegador utilizando http://localhost/projetomarias/index.php
+Estrutura de Entregas
+
+ CRUD de [USUARIOS].
+ CRUD de [INTRUTOR].
+ CRUD de [TREINOS].
+ CRUD de [AGENDAMENTOS].
+
+ Login funcional.
+ Escolha do requisito especial: ALTERAÇÃO DA SENHA.
+ Responsividade implementada.
+ Validações no frontend e backend.
